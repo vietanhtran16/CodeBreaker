@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using CodeBreaker;
 
-namespace CodeBreakerGame
+namespace CodeBreakerGame.Logic
 {
     public class CodeGenerator
     {

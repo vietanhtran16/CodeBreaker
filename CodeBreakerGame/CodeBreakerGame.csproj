@@ -53,11 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeCheckerShould.cs" />
-    <Compile Include="CodeGenerator.cs" />
-    <Compile Include="CodeGeneratorShould.cs" />
-    <Compile Include="ColourMapper.cs" />
-    <Compile Include="ColourMapperShould.cs" />
+    <Compile Include="UnitTest\CodeCheckerShould.cs" />
+    <Compile Include="Logic\CodeGenerator.cs" />
+    <Compile Include="UnitTest\CodeGeneratorShould.cs" />
+    <Compile Include="Logic\ColourMapper.cs" />
+    <Compile Include="UnitTest\ColourMapperShould.cs" />
     <Compile Include="GameConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

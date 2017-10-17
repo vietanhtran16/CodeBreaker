@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CodeBreaker;
 
-namespace CodeBreakerGame
+namespace CodeBreakerGame.Logic
 {
     public class ColourMapper
     {

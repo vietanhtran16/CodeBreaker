@@ -3,7 +3,7 @@ using CodeBreaker;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 
-namespace CodeBreakerGame
+namespace CodeBreakerGame.UnitTest
 {
     [TestFixture]
     public class CodeCheckerShould
@@ -49,7 +49,7 @@ namespace CodeBreakerGame
 
         public void ReturnCorrectMark(string expectedMark, List<Colour> code, List<Colour> guess)
         {
-            var codeBreaker = new CodeBreaker.CodeChecker();
+            var codeBreaker = new CodeChecker();
             var actual = codeBreaker.CheckGuess(code, guess);
             Assert.AreEqual(expectedMark, actual);
         }

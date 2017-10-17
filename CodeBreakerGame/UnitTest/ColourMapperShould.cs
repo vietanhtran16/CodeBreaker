@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using CodeBreaker;
+using CodeBreakerGame.Logic;
 using NUnit.Framework;
 
-namespace CodeBreakerGame
+namespace CodeBreakerGame.UnitTest
 {
     [TestFixture()]
     public class ColourMapperShould

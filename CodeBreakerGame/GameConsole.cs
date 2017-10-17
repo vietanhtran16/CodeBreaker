@@ -1,5 +1,6 @@
 ﻿using System;
 using CodeBreaker;
+using CodeBreakerGame.Logic;
 
 namespace CodeBreakerGame
 {
